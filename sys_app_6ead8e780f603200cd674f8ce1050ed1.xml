@@ -16,8 +16,8 @@
         <menu display_value="NeedIt">0242fb8d0fa83200cd674f8ce1050e79</menu>
         <name>NeedIt Application</name>
         <private>false</private>
-        <restrict_table_access>false</restrict_table_access>
-        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <restrict_table_access>true</restrict_table_access>
+        <runtime_access_tracking>enforcing</runtime_access_tracking>
         <scope>x_58872_needit</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
