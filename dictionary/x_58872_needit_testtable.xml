@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="00d99466972021103cfffed11153af6c" label="TestTable" max_length="40" name="x_58872_needit_testtable" type="collection">
+        <element label="counter" max_length="40" name="counter" type="string"/>
+    </element>
+</database>
