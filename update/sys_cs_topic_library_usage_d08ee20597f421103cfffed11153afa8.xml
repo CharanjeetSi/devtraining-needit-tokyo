@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_library_usage">
+    <sys_cs_topic_library_usage action="INSERT_OR_UPDATE">
+        <calling_cs_topic_id display_value="Report Repo Access">188ee20597f421103cfffed11153af9a</calling_cs_topic_id>
+        <library_cs_topic_id display_value="Agent Availability">673687c45346101042a9ddeeff7b1249</library_cs_topic_id>
+        <library_usage>{"type":"LibraryCall","library_topic_name":"Agent Availability","library_topic_id":"673687c45346101042a9ddeeff7b1249","parameter-mappings":[],"return-value-mappings":[{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"agentavailable","main_topic_mapped_variable_name":"agentavailable"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"supportqueue","main_topic_mapped_variable_name":"supportqueue"},{"main_topic_variable_namespace":"vaInputs","library_topic_return_parameter_name":"waitingtime","main_topic_mapped_variable_name":"waitingtime"}],"id":"f36ebb129b5847c7a27d4c728ad9416f","name":"Agent Availability","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"}}</library_usage>
+        <node_id>f36ebb129b5847c7a27d4c728ad9416f</node_id>
+        <sys_class_name>sys_cs_topic_library_usage</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-02 10:08:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d08ee20597f421103cfffed11153afa8</sys_id>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cs_topic_library_usage_d08ee20597f421103cfffed11153afa8</sys_update_name>
+    </sys_cs_topic_library_usage>
+</record_update>
