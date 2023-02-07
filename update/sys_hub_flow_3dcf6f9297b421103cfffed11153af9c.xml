@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>testingflow</internal_name>
+        <label_cache>[{"name":"e1bdc0af-4f3b-4f91-80cd-702f1986893f.ip_address","label":"1 - Get Geographic Data from IP➛IP Address","reference_display":"IP Address","type":"ip_address","base_type":"ip_address","attributes":{"uiTypeLabel":"IP Address","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"ip_address","uiUniqueId":"9ee84e56-1a3f-49f2-bb8c-e3ef7951cc9e"}},{"name":"e1bdc0af-4f3b-4f91-80cd-702f1986893f.__action_status__","label":"1 - Get Geographic Data from IP➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"e755fc23-3623-40e3-80fc-5d59a1adc5ea"}},{"name":"e1bdc0af-4f3b-4f91-80cd-702f1986893f.__dont_treat_as_error__","label":"1 - Get Geographic Data from IP➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"96a34b30-0d34-4947-a36a-448c4824b1f7"}},{"name":"e1bdc0af-4f3b-4f91-80cd-702f1986893f.city","label":"1 - Get Geographic Data from IP➛City","reference_display":"City","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"a47b5fa3-77dc-473b-92b2-6e9d28b1bdba"}},{"name":"e1bdc0af-4f3b-4f91-80cd-702f1986893f.country","label":"1 - Get Geographic Data from IP➛Country","reference_display":"Country","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"b57cf802-be3d-4f7d-809e-9c548502d7f1"}},{"name":"e1bdc0af-4f3b-4f91-80cd-702f1986893f.region","label":"1 - Get Geographic Data from IP➛Region","reference_display":"Region","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"5dde4057-98b4-4d1c-8a34-11129f03d4ba"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Testing IP Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 12:06:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3dcf6f9297b421103cfffed11153af9c</sys_id>
+        <sys_name>Testing IP Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_3dcf6f9297b421103cfffed11153af9c</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=3dcf6f9297b421103cfffed11153af9c^sys_idNOT INb9cf6f9297b421103cfffed11153af9f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>3dcf6f9297b421103cfffed11153af9c</id>
+        <name>TestingFlow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 12:06:25</sys_created_on>
+        <sys_id>b9cf6f9297b421103cfffed11153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 12:06:25</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=b9cf6f9297b421103cfffed11153af9f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=3dcf6f9297b421103cfffed11153af9c^sys_idNOT INaa503fd297b421103cfffed11153af4a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Geographic Data from IP">111077d297b421103cfffed11153afba</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Testing IP Flow">3dcf6f9297b421103cfffed11153af9c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-06 12:08:55</sys_created_on>
+        <sys_id>aa503fd297b421103cfffed11153af4a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-06 12:08:55</sys_updated_on>
+        <ui_id>e1bdc0af-4f3b-4f91-80cd-702f1986893f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aa503fd297b421103cfffed11153af4a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_111077d297b421103cfffed11153afba^id=aa503fd297b421103cfffed11153af4a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=aa503fd297b421103cfffed11153af4a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=aa503fd297b421103cfffed11153af4a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=3dcf6f9297b421103cfffed11153af9c"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=3dcf6f9297b421103cfffed11153af9c"/>
+</record_update>
