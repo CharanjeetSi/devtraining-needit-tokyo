@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
-        <client_script><![CDATA[function($scope,$rootScope) {
+        <client_script><![CDATA[function($scope,$rootScope,spModal,spUtil) {
   /* widget controller */
   var c = this;
   
@@ -17,13 +17,17 @@
   });
 
   c.updateNote = function(updateType) {
-    c.server.get({
-      action: 'updateNote',
-      noteID: c.data.noteID,
-      noteBody: c.data.note,
-      noteTitle: c.data.title
-    }).then(function(r) {
-      console.log("updateNote");
+    spModal.confirm('Are you sure you want to update this note?').then(function(confirmed) {
+      if (confirmed) {  
+        c.server.get({
+          action: 'updateNote',
+          noteID: c.data.noteID,
+          noteBody: c.data.note,
+          noteTitle: c.data.title
+        }).then(function(r) {
+          spUtil.addTrivialMessage('Record updated successfully'); 
+        });
+      }
     });
   }
 }]]></client_script>
@@ -73,12 +77,21 @@
     <div class="panel-heading clearfix">
         <div class="row">
             <div class="col-md-12">
-                <input class="form-control" id="note-title" ng-model="c.data.title" ng-change="c.updateNote('title')" ng-model-options="{debounce: 1000}" />
+                <input class="form-control" id="note-title" ng-model="c.data.title" ng-model-options="{debounce: 1000}" />
             </div>
         </div>
     </div>
     <div class="panel-body">
-        <textarea class="form-control" id="note-body" ng-model="c.data.note" ng-change="c.updateNote('body')" ng-model-options="{debounce: 1000}"></textarea>
+        <textarea class="form-control" id="note-body" ng-model="c.data.note" ng-model-options="{debounce: 1000}"></textarea>
+    </div>
+    <div class="panel-footer clearfix">
+        <div class="row">
+            <div class="col-md-12">
+                <button class="btn btn-primary" ng-click="c.updateNote('update')">Update</button>
+               <delete-button-confirm></delete-button-confirm>
+                <button class="btn btn-primary" onclick="location.reload()">Cancel</button>
+            </div>
+        </div>
     </div>
 </div>]]></template>
     </sp_widget>

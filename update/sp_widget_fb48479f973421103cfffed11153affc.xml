@@ -23,7 +23,7 @@
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
         <name>Notes List</name>
-        <option_schema/>
+        <option_schema>[{"hint":"Maximum records to display","name":"maximum_records_to_display","section":"other","default_value":"2","label":"Maximum records to display","type":"choice","choices":[{"label":"2","value":"2"},{"label":"4","value":"4"},{"label":"6","value":"6"},{"label":"8","value":"8"}]},{"hint":"Specify a title for the Notes List widget","name":"title","section":"other","default_value":"Notes","label":"Title","type":"string"}]</option_schema>
         <public>false</public>
         <roles/>
         <script><![CDATA[(function() {
@@ -33,6 +33,7 @@
   gs.info(gs.getUserID());
   noteGR.addQuery('u_requested_for', gs.getUserID());
   noteGR.orderByDesc('sys_created_on');
+  noteGR.setLimit(options.maximum_records_to_display);
   noteGR.query();
   while (noteGR.next()) {
   var noteObj = {};
@@ -56,7 +57,7 @@
         <template><![CDATA[<div class="panel panel-default">
   <div class="panel-heading clearfix">
     <h3 class="panel-title pull-left">
-      ${Notes}
+      {{ ::c.options.title}}
     </h3>
   </div>
   <div class="list-group">

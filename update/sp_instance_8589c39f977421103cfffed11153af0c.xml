@@ -16,14 +16,23 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-02-09 11:53:09</sys_created_on>
         <sys_id>8589c39f977421103cfffed11153af0c</sys_id>
-        <sys_name/>
+        <sys_name>Needit Records</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sp_instance_8589c39f977421103cfffed11153af0c</sys_update_name>
-        <title/>
+        <title>Needit Records</title>
         <url/>
-        <widget_parameters/>
+        <widget_parameters><![CDATA[{
+	"maximum_records_to_display": {
+		"value": "2",
+		"displayValue": "2"
+	},
+	"title": {
+		"value": "Needit Records",
+		"displayValue": "Needit Records"
+	}
+}]]></widget_parameters>
     </sp_instance>
     <sys_translated_text action="delete_multiple" query="documentkey=8589c39f977421103cfffed11153af0c"/>
 </record_update>

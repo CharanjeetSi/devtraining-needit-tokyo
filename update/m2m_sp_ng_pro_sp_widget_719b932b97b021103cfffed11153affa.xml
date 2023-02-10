@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE">
+        <sp_angular_provider display_value="deleteButtonConfirm">ed7a932b97b021103cfffed11153af58</sp_angular_provider>
+        <sp_widget display_value="Notes Body">70c8cb9b977421103cfffed11153af25</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-10 07:50:36</sys_created_on>
+        <sys_id>719b932b97b021103cfffed11153affa</sys_id>
+        <sys_name>deleteButtonConfirm.Notes Body</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_719b932b97b021103cfffed11153affa</sys_update_name>
+    </m2m_sp_ng_pro_sp_widget>
+</record_update>
